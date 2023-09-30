@@ -1,0 +1,51 @@
+:root {
+	/* Colors */
+	--pureBlackColor: #000000;
+	--darkColor: #121212;
+	--darkGrayColor: #23272f;
+	--lightGrayColor: #343a45;
+	--yellowColor: #ffd369;
+	--whiteColor: #ffffff;
+	/* Fonts */
+	--regularFont: "acme";
+	--mediumFont: "fira-code-medium";
+}
+
+@font-face {
+	font-family: "acme";
+	src: url("./fonts/Acme-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "fira-code-medium";
+	src: url("./fonts/FiraCode-Medium.ttf") format("truetype");
+	font-style: normal;
+	font-display: swap;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	padding: 3%;
+	font-size: 1.6rem;
+	background-color: var(--darkGrayColor);
+	height: 100dvh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#root {
+	width: 100%;
+	height: 100%;
+}

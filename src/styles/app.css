@@ -1,0 +1,60 @@
+.container {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 50%);
+	grid-template-rows: 8rem 1fr;
+	border: 0.3rem solid var(--lightGrayColor);
+	border-radius: 1.5rem 1.5rem 0 0;
+	overflow: hidden;
+}
+
+.header {
+	background-color: var(--lightGrayColor);
+	grid-column: 1 / 3;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: var(--whiteColor);
+	padding: 0 2rem;
+}
+
+.file-name {
+	height: 100%;
+	font-size: 2.4rem;
+	font-family: var(--regularFont);
+	display: flex;
+	align-items: center;
+	border-bottom: 0.4rem solid var(--yellowColor);
+}
+
+.buttons {
+	display: flex;
+	column-gap: 1.5rem;
+}
+
+.editor {
+	all: unset;
+	width: 100%;
+	font-family: var(--mediumFont);
+	font-size: 1.6rem;
+	background-color: var(--darkColor);
+	color: var(--whiteColor);
+	padding: 2rem;
+}
+
+.preview {
+	width: 100%;
+	height: 100%;
+	font-family: var(--regularFont);
+	background-color: var(--pureBlackColor);
+	color: var(--whiteColor);
+	padding: 2rem;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.btn {
+	all: unset;
+	cursor: pointer;
+}
