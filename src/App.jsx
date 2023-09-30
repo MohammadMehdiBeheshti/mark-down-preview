@@ -76,7 +76,11 @@ export default function App() {
 						<SaveIcon />
 					</button>
 
-					<a href="#" target="_blank">
+					<a
+						href="https://github.com/MohammadMehdiBeheshti/mark-down-preview"
+						target="_blank"
+						rel="noreferrer"
+					>
 						<GitHubIcon />
 					</a>
 				</div>
